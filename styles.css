@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: #666 0px 1px 2px;
+          box-shadow: #666 0px 1px 2px;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+body .profile-header {
+  margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+body .profile-header img {
+  border-radius: 50%;
+  height: 300px;
+}
+
+body .profile-header .name {
+  margin-bottom: 0;
+}
+
+body .profile-header .description {
+  width: 300px;
+  text-align: center;
+}
+
+body .image-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+body .image-grid img {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
